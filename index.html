@@ -11,19 +11,34 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    *{
+      font-family: 'Inter', sans-serif;
+    }
     body{
       background-color: hsl(0, 0%, 8%);
-      font-family: 'Inter', sans-serif;
+      
     }
     button{
       color: white;
       background-color: hsl(0, 0%, 20%);
+      width: 80%;
+      margin: 10px;
+      padding: 15px;
+      border: 0px;
+      border-radius: 10px;
+      font-weight: 600;
     }
-    h2{
+    h2, p{
       color: white;
     }
     p{
-      color: white;
+      font-size: 14px;
+    }
+    h2{
+      font-weight: 400;
+    }
+    img{
+      border-radius: 50%;
     }
     .container{
       display: flex;
@@ -33,11 +48,14 @@
     }
     .home{
       color: hsl(75, 94%, 57%);
+      font-weight: 600;
     }
     .card{
       background-color: hsl(0, 0%, 12%);
       border-radius: 10px;
       text-align: center;
+      width: 25%;
+      padding: 15px 0px 15px;
     }
     button:hover{
       background-color: hsl(75, 94%, 57%);
@@ -53,11 +71,14 @@
       <h2>Jessica Randall</h2>
       <p class="home">London, United Kingdom</p>
       <p>"Front-end developer and avid reader."</p>
-      <a href="#"><button>GitHub</button></a>
-      <a href="#"><button>Frontend Mentor</button></a>
-      <a href="#"><button>LinkedIn</button></a>
-      <a href="#"><button>Twitter</button></a>
-      <a href="#"><button>Instagram</button></a>
+      <div class="links">
+        <a href="#"><button>GitHub</button></a>
+        <a href="#"><button>Frontend Mentor</button></a>
+        <a href="#"><button>LinkedIn</button></a>
+        <a href="#"><button>Twitter</button></a>
+        <a href="#"><button>Instagram</button></a>
+      </div>
+      
     </div>
   </div>
 </body>
